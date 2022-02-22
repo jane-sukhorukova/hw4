@@ -1,0 +1,5 @@
+name = input('Enter you name: ')
+big = name.upper()
+small = name.lower()
+result = '{} {}'.format(big, small)
+print(result)
